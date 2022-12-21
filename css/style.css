@@ -8,5 +8,12 @@
 
 .hero {
   height: 100vh;
-  background-image: url();
+  background-image: url(../images/home-img.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hovered-link > li:hover {
+  border-bottom: 1px solid grey;
+  color: gold;
 }
